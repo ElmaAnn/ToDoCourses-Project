@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/* @import "../node_modules/jquery/dist/jquery.min.js"; */
+
+body {
+  background: lightcyan;
+  padding: 3em;
+  font-family: initial 20px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 2em 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  color: steelblue;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+a.active {
+  font-weight: 600;
+  background-color: lightblue;
+}
